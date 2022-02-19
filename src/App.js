@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
 import Popup from "./component/Popup";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+
 function App() {
   const [buttonPopup, setButtonPopup] = useState(false);
   const [timePopup, setTimePopup] = useState(false);
@@ -12,7 +16,7 @@ function App() {
   //   }, 10000);
   // }, []);
 
-  // after 1 seconds
+  // after 3 seconds
   useEffect(() => {
     setTimeout(() => {
       setTimePopup(true);
@@ -26,12 +30,12 @@ function App() {
         <button onClick={() => setButtonPopup(true)}>Open</button>
       </main>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-        <h1>My First POPUP IN React js</h1>
+        <h1>Popup When Click</h1>
         <p>Hello world</p>
       </Popup>
 
       <Popup trigger={timePopup} setTrigger={setTimePopup}>
-        <h1>My First POPUP IN React js</h1>
+        <h1>Popup After Page Load</h1>
         <p>Hello world</p>
       </Popup>
     </div>
