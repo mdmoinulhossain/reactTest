@@ -1,5 +1,5 @@
 import React from "react";
-
+import * as VsCIco from "react-icons/vsc";
 import "./Popup.css";
 
 function Popup(props) {
@@ -7,7 +7,7 @@ function Popup(props) {
     <div className="popup">
       <div className="popup-inner">
         <button className="close-btn" onClick={() => props.setTrigger(false)}>
-          Close
+          Close <VsCIco.VscCloseAll />
         </button>
         {props.children}
       </div>
