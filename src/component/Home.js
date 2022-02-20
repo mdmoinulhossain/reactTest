@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Popup from "./component/Popup";
+import Popup from "./Popup";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -26,7 +26,7 @@ function Home() {
   return (
     <div>
       <main>
-        <h1>Hi Hello</h1>
+        <h1>POP UP</h1>
         <button onClick={() => setButtonPopup(true)}>Open</button>
       </main>
       <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
