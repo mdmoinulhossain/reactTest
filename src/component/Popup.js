@@ -13,7 +13,7 @@ function Popup(props) {
       </div>
     </div>
   ) : (
-    "No Popup"
+    ""
   );
 }
 

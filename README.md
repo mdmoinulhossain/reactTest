@@ -7,5 +7,5 @@
 
 #Features:
 
-1. React Popup added
+1. React Popup added (Time-up and click both)
 2. React Image Magnifier added
