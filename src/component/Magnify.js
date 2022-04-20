@@ -1,10 +1,12 @@
 import React from "react";
 import watch from "../img/test.jpg";
 import ReactImageMagnify from "react-image-magnify";
+import Header from "./Header";
 
 const Magnify = () => {
   return (
     <div>
+      <Header />
       <ReactImageMagnify
         {...{
           smallImage: {

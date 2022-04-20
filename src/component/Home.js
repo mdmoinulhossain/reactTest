@@ -4,6 +4,7 @@ import Popup from "./Popup";
 
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Header from "./Header";
 
 function Home() {
   const [buttonPopup, setButtonPopup] = useState(false);
@@ -25,6 +26,7 @@ function Home() {
 
   return (
     <div>
+      <Header />
       <main>
         <h1>POP UP</h1>
         <button onClick={() => setButtonPopup(true)}>Open</button>
@@ -33,7 +35,6 @@ function Home() {
         <h1>Popup When Click</h1>
         <p>Hello world</p>
       </Popup>
-
       <Popup trigger={timePopup} setTrigger={setTimePopup}>
         <h1>Popup After Page Load</h1>
         <p>Hello world</p>
