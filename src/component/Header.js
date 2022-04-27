@@ -20,6 +20,11 @@ const Header = () => {
             Subscribe
           </Link>
         </li>
+        <li className="li">
+          <Link to="/cats" className="link">
+            data
+          </Link>
+        </li>
       </ul>
     </nav>
   );

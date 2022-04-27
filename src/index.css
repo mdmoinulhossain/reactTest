@@ -22,3 +22,21 @@ main {
 .link {
   color: #fff;
 }
+.catData {
+  display: flex;
+  padding: 10px;
+}
+.catDataBody {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 200px;
+  background-color: green;
+  color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.catImg {
+  width: 200px;
+  height: auto;
+}
