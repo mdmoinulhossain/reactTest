@@ -14,7 +14,7 @@ const CatDetails = () => {
         data-bs-target="#exampleModal"
       >
         <img
-          src="https://icatcare.org/app/uploads/2019/09/The-Kitten-Checklist-1.png"
+          src="https://i.ibb.co/wyfLTtF/piku.png"
           alt=""
           className="catImg"
         />
