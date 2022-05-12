@@ -5,6 +5,7 @@
 3. React Icons (https://react-icons.github.io/react-icons/)
 4. Image Magnifier (https://ethanselzer.github.io/react-image-magnify/#/)
 5. Material UI (MU icon also) (https://mui.com/getting-started/installation/)
+6. react-lazy-load-image-component (https://github.com/Aljullu/react-lazy-load-image-component)
 
 #Features:
 
