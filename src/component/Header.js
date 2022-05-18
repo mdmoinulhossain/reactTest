@@ -25,6 +25,11 @@ const Header = () => {
             data
           </Link>
         </li>
+        <li className="li">
+          <Link to="/contact" className="link">
+            Contact US
+          </Link>
+        </li>
       </ul>
     </nav>
   );
