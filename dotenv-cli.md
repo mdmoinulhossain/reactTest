@@ -32,3 +32,31 @@ remote: Securely pushed development (.env)
 
 Run npx dotenv-vault open to view in the ui
 PS D:\Moinul\Projects\React\reactjs-Interacts-webPage>
+
+Microsoft Windows [Version 10.0.19044.1889]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Unicon>npx dotenv-vault help
+npx: installed 175 in 25.463s
+Sync your .env files, securely.
+
+VERSION
+dotenv-vault/1.11.2 win32-x64 node-v14.17.5
+
+USAGE
+$ dotenv-vault [COMMAND]
+
+COMMANDS
+help Display help for dotenv-vault.
+login Log in to dotenv-vault
+logout Log out
+new Create your project
+open Open project page
+pull Pull .env securely
+push Push .env securely
+status Check dotenv-vault operational status
+update update the dotenv-vault CLI
+versions List version history
+whoami Display the current logged in user
+
+C:\Users\Unicon>
