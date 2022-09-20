@@ -1,7 +1,7 @@
 import React from "react";
 
 const MainChimp = () => {
-  return <div>MainChimp</div>;
+  return <div>MailChimp</div>;
 };
 
 export default MainChimp;
