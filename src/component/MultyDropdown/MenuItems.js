@@ -15,6 +15,16 @@ const MenuItems = [
       {
         title: "web development",
         url: "web-dev",
+        subchildmenu: [
+          {
+            title: "PHP",
+            url: "php",
+          },
+          {
+            title: "JavaScript",
+            url: "js",
+          },
+        ],
       },
       {
         title: "SEO",
@@ -30,6 +40,20 @@ const MenuItems = [
   {
     title: "Category",
     url: "/category",
+    submenu: [
+      {
+        title: "Shirt",
+        url: "shirt",
+      },
+      {
+        title: "Pant",
+        url: "pant",
+      },
+      {
+        title: "Panjabi",
+        url: "panjabi",
+      },
+    ],
   },
 ];
 

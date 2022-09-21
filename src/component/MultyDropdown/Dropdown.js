@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Dropdown.css";
-import MenuItem from "./MenuItem";
 import MenuItems from "./MenuItems";
 
 const Dropdown = () => {
@@ -12,14 +11,25 @@ const Dropdown = () => {
         <h5>Dynamic Dropdown</h5>
         <div>
           <ul className="menus">
-            {/* {data.map((menu) => (
-              <MenuItem menu={menu} key={menu.title} />
-            ))} */}
-
-            {data.map((menu) =>
-              // <div>{menu?.title}</div>
-              menu?.submenu?.map((dt) => console.log(dt?.title))
-            )}
+            {data.map((menu) => (
+              <li>
+                <a href={menu.url}>{menu.title}</a>
+                {menu?.submenu?.map((ch) => (
+                  <ul>
+                    <li>
+                      <a href={ch?.url}>{ch?.title}</a>
+                      {ch?.subchildmenu?.map((subCh) => (
+                        <ul>
+                          <li>
+                            <a href={subCh?.url}>{subCh?.title}</a>
+                          </li>
+                        </ul>
+                      ))}
+                    </li>
+                  </ul>
+                ))}
+              </li>
+            ))}
           </ul>
         </div>
       </section>
