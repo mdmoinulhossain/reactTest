@@ -1,18 +1,22 @@
 import MenuItems from "./MenuItems";
 
-const MenuItem = ({ items }) => {
+const MenuItem = ({ menu }) => {
+  const { title } = menu;
+  console.log(title);
   return (
     <li className="menu-items">
-      {items.submenu ? (
+      {/* {menu?.submenu ? (
         <>
           <button type="button" aria-haspopup="menu">
-            {items.title}{" "}
+            {menu.title}{" "}
           </button>
-          <MenuItems submenus={items.submenu} />
+          <MenuItems submenus={menu.submenu} />
         </>
       ) : (
-        <a href={items.url}>{items.title}</a>
-      )}
+        <a href={menu.url}>{menu.title}</a>
+      )} */}
+
+      {/* {menu?.submenu?.map((dt) => console.log(dt))} */}
     </li>
   );
 };

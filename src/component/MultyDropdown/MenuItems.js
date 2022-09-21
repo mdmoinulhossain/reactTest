@@ -1,8 +1,9 @@
-export const MenuItems = [
+const MenuItems = [
   {
     title: "Home",
     url: "/",
   },
+
   {
     title: "Services",
     url: "/services",
@@ -21,6 +22,7 @@ export const MenuItems = [
       },
     ],
   },
+
   {
     title: "About",
     url: "/about",
@@ -30,3 +32,5 @@ export const MenuItems = [
     url: "/category",
   },
 ];
+
+export default MenuItems;
