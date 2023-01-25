@@ -33,6 +33,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      {/* *************NB: If Embed by another div sticky/fixed nav class not working*/}
       <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
