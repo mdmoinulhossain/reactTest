@@ -6,6 +6,7 @@ import CatDetails from "./component/Fake_data/CatDetails";
 import ContactUs from "./component/ContactUs/ContactUs";
 import MultyDropdown from "./component/MultyDropdown/Dropdown";
 import Webmail from "./component/Webmail/Webmail";
+import Coverflow from "./component/Coverflow/Coverflow";
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/menus" element={<MultyDropdown />} />
         <Route path="/webmail" element={<Webmail />} />
+        <Route path="/coverFlow" element={<Coverflow />} />
       </Routes>
       {/* <div>
         <MessengerCustomerChat

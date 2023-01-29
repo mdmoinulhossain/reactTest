@@ -31,6 +31,11 @@ const Header = () => {
               Contact US
             </Link>
           </li>
+          <li className="li">
+            <Link to="/coverFlow" className="link">
+              Coverflow Slider
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* *************NB: If Embed by another div sticky/fixed nav class not working*/}
