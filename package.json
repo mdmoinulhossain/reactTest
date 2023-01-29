@@ -17,6 +17,7 @@
     "react-messenger-customer-chat": "^0.8.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
+    "sass": "^1.57.1",
     "swiper": "^8.4.6",
     "web-vitals": "^1.1.2"
   },
