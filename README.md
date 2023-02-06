@@ -7,9 +7,11 @@
 5. Material UI (MU icon also) (https://mui.com/getting-started/installation/)
 6. react-lazy-load-image-component (https://github.com/Aljullu/react-lazy-load-image-component)
 7. Email-js (https://www.emailjs.com/docs/sdk/installation/)
+8. React Icon Kit (https://react-icons-kit.vercel.app/)
 
 #Features:
 
 1. React Popup added (Time-up and click both)
 2. React Image Magnifier added
 3. Email-js
+4. Eye OFF/ ON
