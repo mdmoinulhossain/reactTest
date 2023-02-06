@@ -36,6 +36,11 @@ const Header = () => {
               Coverflow Slider
             </Link>
           </li>
+          <li className="li">
+            <Link to="/input_eye" className="link">
+              eyeoff
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* *************NB: If Embed by another div sticky/fixed nav class not working*/}
