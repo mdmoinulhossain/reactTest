@@ -8,6 +8,7 @@ import MultyDropdown from "./component/MultyDropdown/Dropdown";
 import Webmail from "./component/Webmail/Webmail";
 import Coverflow from "./component/Coverflow/Coverflow";
 import EyeOff from "./component/ReactIconKit/EyeOff";
+import Filter from "./component/Filter-data/Filter";
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/webmail" element={<Webmail />} />
         <Route path="/coverFlow" element={<Coverflow />} />
         <Route path="/input_eye" element={<EyeOff />} />
+        <Route path="/filter-data" element={<Filter />} />
       </Routes>
       {/* <div>
         <MessengerCustomerChat

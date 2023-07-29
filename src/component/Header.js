@@ -41,6 +41,11 @@ const Header = () => {
               eyeoff
             </Link>
           </li>
+          <li className="li">
+            <Link to="/filter-data" className="link">
+              Filter-data
+            </Link>
+          </li>
         </ul>
       </nav>
       {/* *************NB: If Embed by another div sticky/fixed nav class not working*/}

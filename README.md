@@ -15,3 +15,4 @@
 2. React Image Magnifier added
 3. Email-js
 4. Eye OFF/ ON
+5. Filter data
