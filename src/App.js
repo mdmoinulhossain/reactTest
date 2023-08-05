@@ -9,6 +9,8 @@ import Webmail from "./component/Webmail/Webmail";
 import Coverflow from "./component/Coverflow/Coverflow";
 import EyeOff from "./component/ReactIconKit/EyeOff";
 import Filter from "./component/Filter-data/Filter";
+import Parameter from "./component/UseParam/Parameter";
+import GetParameter from "./component/UseParam/GetParameter";
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 
 function App() {
@@ -25,6 +27,11 @@ function App() {
         <Route path="/coverFlow" element={<Coverflow />} />
         <Route path="/input_eye" element={<EyeOff />} />
         <Route path="/filter-data" element={<Filter />} />
+        <Route path="/url-data" element={<Parameter />} />
+        {/* get Data from url */}
+        <Route path="/url/:getData" element={<GetParameter />} />
+        {/* if no parameter found */}
+        <Route path="/url" element={<GetParameter />} />
       </Routes>
       {/* <div>
         <MessengerCustomerChat
