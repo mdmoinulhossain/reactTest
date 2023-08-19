@@ -11,7 +11,9 @@ import EyeOff from "./component/ReactIconKit/EyeOff";
 import Filter from "./component/Filter-data/Filter";
 import Parameter from "./component/UseParam/Parameter";
 import GetParameter from "./component/UseParam/GetParameter";
+
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
+import Design1 from "./component/Raw-design/DesignA";
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/url/:getData" element={<GetParameter />} />
         {/* if no parameter found */}
         <Route path="/url" element={<GetParameter />} />
+
+        <Route path="/design1" element={<Design1 />} />
       </Routes>
       {/* <div>
         <MessengerCustomerChat
