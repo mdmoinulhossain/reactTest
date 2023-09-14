@@ -14,6 +14,7 @@ import GetParameter from "./component/UseParam/GetParameter";
 
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 import Design1 from "./component/Raw-design/DesignA";
+import Student from "./component/CRUD/Student";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/coverFlow" element={<Coverflow />} />
         <Route path="/input_eye" element={<EyeOff />} />
         <Route path="/filter-data" element={<Filter />} />
+        <Route path="/crud" element={<Student />} />
         <Route path="/url-data" element={<Parameter />} />
         {/* get Data from url */}
         <Route path="/url/:getData" element={<GetParameter />} />
