@@ -15,6 +15,7 @@ import GetParameter from "./component/UseParam/GetParameter";
 // import MessengerCustomerChat from "react-messenger-customer-chat/lib/MessengerCustomerChat";
 import Design1 from "./component/Raw-design/DesignA";
 import Student from "./component/CRUD/Student";
+import LoadMore from "./component/LoadMore/LoadMore";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <Route path="/url" element={<GetParameter />} />
 
         <Route path="/design1" element={<Design1 />} />
+        <Route path="/loadmore" element={<LoadMore />} />
       </Routes>
       {/* <div>
         <MessengerCustomerChat
