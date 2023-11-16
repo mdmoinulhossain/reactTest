@@ -17,6 +17,7 @@
     "react-image-magnify": "^2.7.4",
     "react-lazy-load-image-component": "^1.5.4",
     "react-messenger-customer-chat": "^0.8.0",
+    "react-multistep": "^5.5.9",
     "react-router-dom": "^6.2.1",
     "react-scripts": "4.0.3",
     "sass": "^1.57.1",

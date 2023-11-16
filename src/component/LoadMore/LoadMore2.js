@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-const LoadMore = () => {
+const LoadMore2 = () => {
 
   const [itemsToShow, setItemsToShow] = useState(5); // Initial number of items to show
   const totalItems = 20; // Total number of items you have
@@ -26,4 +26,4 @@ const LoadMore = () => {
     );
 };
 
-export default LoadMore;
+export default LoadMore2;
