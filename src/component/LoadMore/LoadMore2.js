@@ -1,3 +1,5 @@
+// Load More function for dynamic jsx.
+
 import React, { useState } from 'react';
 
 const LoadMore = () => {
@@ -17,7 +19,6 @@ const LoadMore = () => {
       {items.slice(0, itemsToShow).map((item, index) => (
         <div key={index}>{item}</div>
       ))}
-
       {itemsToShow < totalItems && (
         <button onClick={loadMore}>Load More</button>
       )}
